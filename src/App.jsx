@@ -24,7 +24,7 @@ export function App(){
     submited === false ? (
         <div className="bg-gradient-dark p-6 rounded-2xl text-white font-overpass max-w-103">
         <div className="bg-dark-blue p-4 w-fit rounded-full mb-4">
-          <img src="{ iconStar }" alt="icon star" />
+          <img src={ iconStar } alt="icon star" />
         </div>
 
         <h1 className="text-2xl font-bold mb-2.5">How did we do?</h1>
